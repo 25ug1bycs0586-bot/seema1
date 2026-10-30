@@ -1,0 +1,38 @@
+# Other independent projects in this workspace; this repository is the website only.
+/ai-moderator/
+/bms-hospital/
+/resume-ai/
+/test/
+/unit-test
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*credentials*
+*secrets*
+
+# Local data and caches
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
